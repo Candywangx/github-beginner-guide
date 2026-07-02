@@ -1,0 +1,65 @@
+## 4. 常见文件：看到它就知道什么意思
+
+### 4.1 多数仓库都会出现的文件
+
+| 文件 | 人话解释 | 新手怎么处理 |
+|---|---|---|
+| `README.md` | 项目说明书 | 归入说明区，用来理解项目用途和用法 |
+| `LICENSE` | 开源许可证 | 知道能不能用、怎么用 |
+| `.gitignore` | 告诉 Git 哪些文件不要提交 | 被忽略的文件在 VS Code 里会显示灰色 |
+| `CHANGELOG.md` | 版本更新记录 | 看项目变化 |
+| `CONTRIBUTING.md` | 贡献指南 | 开 PR 前看 |
+| `CODE_OF_CONDUCT.md` | 社区行为规则 | 开源项目常见 |
+
+### 4.2 Node.js 项目常见文件
+
+| 文件/目录 | 人话解释 |
+|---|---|
+| `package.json` | 项目菜单、依赖、脚本 |
+| `node_modules` | npm 下载的依赖包，体积很大，不提交 |
+| `package-lock.json` | npm 锁定依赖版本 |
+| `pnpm-lock.yaml` | pnpm 锁定依赖版本 |
+| `yarn.lock` | yarn 锁定依赖版本 |
+| `.nvmrc` | 推荐 Node 版本 |
+| `.npmrc` | npm 配置 |
+| `tsconfig.json` | TypeScript 配置 |
+| `src` | 源代码 |
+
+### 4.3 Python 项目常见文件
+
+| 文件/目录 | 人话解释 |
+|---|---|
+| `pyproject.toml` | Python 项目配置、依赖、构建方式 |
+| `requirements.txt` | Python 依赖清单 |
+| `.venv` | 本地虚拟环境 |
+| `venv` | 另一个常见虚拟环境目录名 |
+| `main.py` | 程序入口文件名 |
+| `app.py` | 应用入口文件名 |
+| `notebooks` | Jupyter 笔记本 |
+| `tests` | 测试 |
+
+### 4.4 Docker 和部署常见文件
+
+| 文件 | 人话解释 |
+|---|---|
+| `Dockerfile` | 说明如何打包一个运行环境 |
+| `docker-compose.yml` | 一次启动多个服务，比如前端、后端、数据库 |
+| `.dockerignore` | 打包 Docker 时忽略哪些文件 |
+| `nginx.conf` | Nginx 服务器配置 |
+| `.github/workflows/*.yml` | GitHub 自动检查、构建、部署 |
+
+### 4.5 AI / Agent / MCP 项目常见文件
+
+| 文件/目录 | 人话解释 |
+|---|---|
+| `prompts` | 提示词 |
+| `agents` | 智能体流程 |
+| `skills` | 可复用技能 |
+| `tools` | AI 可以调用的工具 |
+| `mcp` | MCP 相关代码 |
+| `server` | MCP 或 API 服务 |
+| `knowledge` | 知识库资料 |
+| `rag` | 检索增强生成相关 |
+| `models` | 模型配置或模型代码 |
+
+---
