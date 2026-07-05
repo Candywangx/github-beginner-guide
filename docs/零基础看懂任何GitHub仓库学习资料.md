@@ -52,6 +52,7 @@
 | Formatter | 代码格式化工具 | 自动整理代码格式 |
 | Framework / 框架 | 项目骨架 | 规定项目怎么组织和运行的一套工具 |
 | `.github/workflows` | 常见目录 | 放 GitHub 自动化流程 |
+| `.gitattributes` | Git 配置文件 | 告诉 Git 某些文件要怎么处理，比如统一换行符、标记二进制文件、控制 GitHub 语言统计 |
 | `.gitignore` | Git 配置文件 | 告诉 Git 哪些文件/文件夹不要提交；被忽略项在 VS Code 里会变灰 |
 | `.gitkeep` | 占位文件 | 让 Git 保存一个空文件夹 |
 | GUI | 图形界面 | 用按钮、菜单、窗口操作软件的方式 |
@@ -653,6 +654,7 @@ mappings: []
 | `README.md` | 项目说明书 | 归入说明区，用来理解项目用途和用法 |
 | `LICENSE` | 开源许可证 | 知道能不能用、怎么用 |
 | `.gitignore` | 告诉 Git 哪些文件不要提交 | 被忽略的文件在 VS Code 里会显示灰色 |
+| `.gitattributes` | 告诉 Git 已提交的文件要怎么处理 | 常见用途是统一换行符、标记二进制文件、控制 GitHub 语言统计 |
 | `CHANGELOG.md` | 版本更新记录 | 看项目变化 |
 | `CONTRIBUTING.md` | 贡献指南 | 开 PR 前看 |
 | `CODE_OF_CONDUCT.md` | 社区行为规则 | 开源项目常见 |
